@@ -11,16 +11,15 @@ public class LoginPage extends BasePage {
     }
 
     public void checkLoginPage() throws InterruptedException {
+        Thread.sleep(1000);
+        WebElement loginCheck = driver.findElement(By.xpath("//*[@class='btn-link-second-menu d-block']"));
+        String loginCheckText = loginCheck.getText();
 
-        WebElement alert = driver.findElement(By.id("btnSubmitLogin"));
-
-        Assert.assertTrue(alert.getText().contains("Giriş Yap"));
+        Assert.assertTrue(loginCheckText.contains("Giriş Yap"));
         System.out.println("Üye giriş ekranı doğrulandı.");
         // Üye giriş ekranı görüntülendi.
 
     }
-
-
 
 
 }

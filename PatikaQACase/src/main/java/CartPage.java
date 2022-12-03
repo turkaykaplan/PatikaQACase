@@ -1,5 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class CartPage extends BasePage {
 
@@ -16,6 +17,8 @@ public class CartPage extends BasePage {
     }
 
     public void finishShopping() {
+
         click(finishButton);
     }
+
 }

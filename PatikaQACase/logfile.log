@@ -1,0 +1,4 @@
+2022-12-03 13:09:40,745 INFO  [LogClass] searchProduct()SUCCESSFUL 
+2022-12-03 13:09:54,663 INFO  [LogClass] selectAndCheckProduct()SUCCESSFUL 
+2022-12-03 13:09:55,735 INFO  [LogClass] clickFinishButton()SUCCESSFUL 
+2022-12-03 13:09:58,779 INFO  [LogClass] loginPage()SUCCESSFUL 
