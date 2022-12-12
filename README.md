@@ -12,7 +12,7 @@
 
        ●  Kodlar gthub üzernden paylaşılması gereklidir. 
 
-       ●  Yazılacak senaryo için Selenum ve JUnit/Testng kullanılmalıdır.
+       ●  Yazılacak senaryo için Selenium ve JUnit/Testng kullanılmalıdır.
 
        ●  Assertions kullanarak senaryonun doğru çalışırlığı kontrol edilmelidir.
 
